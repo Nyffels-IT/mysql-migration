@@ -1,6 +1,6 @@
 {
   "name": "@nyffels/mysql-migration",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "A simple tool that helps you with mysql migrations by creating smart dump files and smart restore functions. This can be used to migrate new or exisiting mysql databases without loss of data due to the smart sql script generator. Originaly this is used to git version a dev database and auto deploy it to a production environment.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
