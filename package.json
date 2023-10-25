@@ -1,12 +1,11 @@
 {
-  "name": "@nyffels/mysql-versioning-and-migration",
+  "name": "@nyffels/mysql-migration",
   "version": "0.0.0",
-  "description": "A simple tool that helps you with mysql versioning and migration. Ideal for launches from dev mysql database to a production mysql database, without human interactions",
-  "private": false,
+  "description": "A simple tool that helps you with mysql migrations by creating smart dump files and smart restore functions. This can be used to migrate new or exisiting mysql databases without loss of data due to the smart sql script generator. Originaly this is used to git version a dev database and auto deploy it to a production environment.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/Nyffels-IT/mysql2-wrapper",
+    "url": "https://github.com/Nyffels-IT/mysql2-migration",
     "type": "git"
   },
   "scripts": {
@@ -30,6 +29,6 @@
     "mysql2": "^3.6.2"
   },
   "bin": {
-    "@nyffels/mysql-versioning-and-migration": "dist/app.js"
+    "@nyffels/mysql-migration": "dist/app.js"
   }
 }
