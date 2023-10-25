@@ -1,0 +1,35 @@
+{
+  "name": "@nyffels/mysql-versioning-and-migration",
+  "version": "0.0.0",
+  "description": "A simple tool that helps you with mysql versioning and migration. Ideal for launches from dev mysql database to a production mysql database, without human interactions",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/Nyffels-IT/mysql2-wrapper",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "keywords": [
+    "mysql",
+    "mysql2",
+    "wrapper",
+    "global"
+  ],
+  "author": "Nyffels BV",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/lodash": "^4.14.200",
+    "@types/node": "^20.8.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mysql2": "^3.6.2"
+  },
+  "bin": {
+    "@nyffels/mysql-versioning-and-migration": "dist/app.js"
+  }
+}
